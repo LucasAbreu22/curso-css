@@ -1,0 +1,109 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.primary-color{
+    color: #353D41
+}
+
+.secondary-color{
+    color: #fff
+}
+
+.bg-primary-color{
+    color: #1d2224
+}
+
+.bg-secondary-color{
+    color: #fff
+}
+/* NAVBAR */
+
+
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+
+header, .navbar{
+    background-color: #353d41;
+    padding: .7em 2em .7em 2em;
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+    
+}
+
+#logo{
+    width: 40px;
+}
+
+.navbar-brand{
+    color: #fff;
+}
+
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+#navbar-links a{
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+
+@media(min-width: 768px){
+    header, .navbar{
+        background-color: #353d41;
+        padding: .7em 5em .7em 5em;
+    }
+    
+}
+
+
+/* SLIDER */
+
+.carousel-control-prev i,
+.carousel-control-next i{
+    color: rgb(8, 8, 8);
+    font-size: 3em;
+}
+
+
+.carousel-caption h5{
+
+    font-size: 1.8em;
+}
+.carousel-caption h5,
+.carousel-caption p{
+    font-weight:700;
+    
+}
+
+
+
+@media(min-width: 768px){
+    .carousel-inner{
+        height: 90vh;
+    
+    }
+    .carousel-caption{
+        bottom: 24em
+    }
+   
+}

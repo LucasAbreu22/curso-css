@@ -1,0 +1,26 @@
+.special {
+  color: orange;
+  font-weight: bold;
+}
+
+/* VAI APLICAR NOS ELEMENTOS "li" QUE TENHA
+UMA CLASSE "special" */
+li.special {
+  color: orange;
+  font-weight: bold;
+}
+
+/* VAI APLICAR NOS ELEMENTOS "li" QUE TENHA
+UMA CLASSE CHAMADA "special" E OS "spans" 
+COM CLASSA CHAMADA "special"*/
+li.special,
+span.special {
+  color: orange;
+  font-weight: bold;
+}
+
+/* TODO ELEMENTO "em" QUE ESTIVER 
+DENTRO DE UM ELEMENTO "li" SERÁ AFETADO*/
+li em {
+  color: rebeccapurple;
+}
